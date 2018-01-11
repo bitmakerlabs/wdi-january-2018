@@ -1,10 +1,5 @@
-# Web Development Lessons
+## In-class code
 
-This project contains all of the lesson notes and pre-class code for every Web Development morning session.
+This repo will contain all of the code written during morning lessons.
 
-## Usage
-
-  1. At the beginning of each cohort, fork this repo to the `bitmakerlabs` account and rename it to match the cohort (i.e. `wdi-january-2016`).
-  2. Update your fork as necessary (e.g. remove / rearrange / rename lessons)
-  3. Share that repo with the students so they can easily follow along with code examples in class.
-  4. Commit your in-class code to the fork and push it so students have access to the final result for reference when reviewing the day's material.
+To code along with the instructors, clone this repo and pull on a daily basis. To avoid conflicts with instructor code, make a new folder in each lesson folder for your own in-class work.
