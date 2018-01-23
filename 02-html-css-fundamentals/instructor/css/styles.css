@@ -8,18 +8,67 @@
 /* BASIC SELECTORS */
 
 /* Tag selectors */
+h1 {
+  color: blue;
+}
 
+section {
+  background-color: grey;
+}
 
 /* Class selectors */
-
+.highlight {
+  color: red;
+  background-color: yellow;
+}
 
 /* ID selectors */
+#article-list {
+  background-color: darkgoldenrod;
+}
 
+#hero-unit {
+  font-size: 30px;
+}
 
 
 /* ADVANCED SELECTORS */
 
 /* Combining selectors */
+section#hero-unit {
+  font-size: 10px;
+}
 
+h1.highlight {
+  background-color: lightseagreen;
+}
+
+.heading-text.highlight {
+  background-color: pink;
+  font-size: 16px;
+}
+
+section h1 {
+  background-color: green;
+}
+
+section > h1 {
+  background-color: red;
+}
 
 /* Pseudo-selectors */
+a:active {
+  color: green;
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
