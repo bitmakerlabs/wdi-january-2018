@@ -1,5 +1,19 @@
-/*
+body {
+  background: white;
+}
 
-  Insert Galaxy Menu styles here to recreate the look of galaxy-restaurant-menu.pdf.
+header {
+  background: orange;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px;
+  border-bottom: 5px solid grey;
+  margin-bottom: 30px;
+}
 
-*/
+section {
+  border: 4px solid orange;
+  padding: 25px;
+  text-align: center;
+  margin: 30px;
+}
