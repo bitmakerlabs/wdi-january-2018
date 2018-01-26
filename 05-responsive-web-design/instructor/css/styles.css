@@ -49,3 +49,53 @@ body {
 /*
  Write *YOUR* styles here!
 */
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%; /* 10px / 16px = 0.625 OR 62.5% */
+	background: #efefef;
+}
+
+img {
+	max-width: 100%;
+}
+
+.brand-supporting,
+.intro {
+	display: none;
+}
+
+.post {
+	font-size: 4vw; /* 16px / 400px = 4vw */
+	background: #fff;
+	margin-bottom: 3rem;
+}
+
+.post div {
+	padding: 1rem;
+}
+
+.post h2 {
+	font-size: 2em; /* Make the title twice as large as the paragraph. */
+}
+
+.post h3 {
+	font-size: 0.75em; /* Make the author info smaller than the paragraph. */
+}
+
+/* TABLET LAYOUT */
+@media screen and ( min-width: 600px ) {
+	.post-wrapper {
+		width: 94%; /* Make sure the 'post wrapper' is not the full width of the browser. */
+		margin: 0 auto; /* Horizontally center/ */
+	}
+
+	.post {
+		width: 48%;
+		float: left;
+		font-size: 1.6rem;
+	}
+
+	.post:nth-child( even ) {
+		margin-left: 4%; /* Target every 'even' '.post', push out from the left side by 4%. */
+	}
+}
