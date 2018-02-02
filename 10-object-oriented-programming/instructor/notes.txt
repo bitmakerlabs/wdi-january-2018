@@ -1,0 +1,17 @@
+Advantages of Objects
+
+1) Encapsulation
+
+2) Information Hiding
+
+  - State is PRIVATE
+
+3) Abstraction
+
+  - The internals of an object are irrelevant
+
+
+Object    | State                 | Behaviour
+----------+-----------------------+-----------------------
+Instance  | instance variable (@) | instance methods (def)
+????????  | ???????? variable     | ???????? methods
