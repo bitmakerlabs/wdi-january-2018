@@ -1,0 +1,25 @@
+MUST HAVE
+As a user, I should be able to add a contact
+As a user, I should be able to see a list of contacts, so that I can choose one to contact
+As a user, I should be able to find a contact
+As a user, I should be able to look at the details of a contact
+
+SHOULD HAVE
+As a user, I should be able to delete a contact
+As a user, I should be able to edit a contact
+As a user, I should be able to store email of a contact
+As a user, I should be able to store phone number of a contact
+
+COULD HAVE
+As a user, I should be able to call a contact
+As a user, I should be able to store a photo of a contact
+As a user, I should be able to search for a contact
+
+WONT HAVE
+As a user, I should be able to block a contact
+As a user, I should be able set the ringtone of a contact
+As a user, I should be able to export a list of contact
+As a user, I should be able to import a list of contacts
+As a user, I should be able to sync my contacts with gmail
+As a user, I should be able to create a group of contacts
+As a user, I should be able to favourite a contact
