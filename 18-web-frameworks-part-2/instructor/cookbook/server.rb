@@ -21,5 +21,12 @@ end
 
 get '/recipes' do
   @title = 'Recipes'
+
+  @recipes = {
+    1 => 'BBQ Ribs',
+    2 => 'Avocado Sushi',
+    3 => 'Gluten-free Cookies'
+  }
+
   erb :recipes
 end

@@ -1,1 +1,7 @@
-<p>All the recipes go here...</p>
+<ul>
+  <% @recipes.each_with_index do |recipe, i| %>
+    <li>
+      <%= @recipes[i+1] %>
+    </li>
+  <% end %>
+</ul>
