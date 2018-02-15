@@ -1,7 +1,9 @@
 <ul>
   <% @recipes.each_with_index do |recipe, i| %>
     <li>
-      <%= @recipes[i+1] %>
+      <a href="/recipes/<%= i+1 %>">
+        <%= @recipes[i+1] %>
+      </a>
     </li>
   <% end %>
 </ul>
