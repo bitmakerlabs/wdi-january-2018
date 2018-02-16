@@ -13,4 +13,10 @@ class Film < ActiveRecord::Base
 
 end
 
+# Film.create to create a film
+# Film.find(1) to find a film by ID
+# Film.find_by(title: "Harry Potter 1") to find a film by any attribute
+# Film.all to get a list of all the films
+
+
 Film.auto_upgrade!

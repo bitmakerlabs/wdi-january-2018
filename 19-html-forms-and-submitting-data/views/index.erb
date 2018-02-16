@@ -6,30 +6,84 @@
 </ul>
 
 <h2>New Film</h2>
+
+<!-- POST /films  -->
 <form class="new-film" action="/films" method="post">
+  <input hidden name="_method" value="delete">
+
   <div>
-    <!-- input type: text -->
+    <label for="film-title">Title: </label>
+    <input id="film-title" type="text" name="title" placeholder="title">
   </div>
 
   <div>
     <!-- input types: date / time / email / tel / url / color / range / number / search -->
+
+    <!-- <br><div>date: <input type="date"></div>
+    <br><div>time: <input type="time"></div>
+    <br><div>email: <input type="email"></div>
+    <br><div>tel: <input type="tel"></div>
+    <br><div>url: <input type="url"></div>
+    <br><div>color: <input type="color"></div>
+    <br><div>range: <input type="range"></div>
+    <br><div>number: <input type="number"></div>
+    <br><div>search: <input type="search"></div> -->
   </div>
 
   <div>
+    <label for="film-description">Description: </label>
+    <textarea id="film-description" name="description" placeholder="Enter your description" rows="4"></textarea>
     <!-- textarea -->
+    <!-- name, placeholder, rows, value -->
+    <!-- whitespace -->
+    <!-- label -->
   </div>
 
   <div>
-  <!-- input radio -->
+    <fieldset>
+      <legend>Rating</legend>
+      <label for="film-rating-1">
+        <span>1 star</span>
+        <input id="film-rating-1" type="radio" name="rating" value="1">
+      </label>
+
+      <label for="film-rating-2">2 star</label>
+      <input id="film-rating-2" type="radio" name="rating" value="2">
+
+      <label for="film-rating-3">3 star</label>
+      <input id="film-rating-3" type="radio" name="rating" value="3">
+
+      <label for="film-rating-4">4 star</label>
+      <input id="film-rating-4" type="radio" name="rating" value="4">
+
+      <label for="film-rating-5">5 star</label>
+      <input id="film-rating-5" type="radio" name="rating" value="5">
+    </fieldset>
+    <!-- input radio -->
+    <!-- same name -->
+    <!-- value -->
+    <!-- fieldset -->
+
   </div>
 
   <div>
+    <label for="film-available">Available?</label>
+    <input id="film-available" type="checkbox" name="available" value="1">
   <!-- input checkbox -->
+  <!-- label, name, value, type, checked -->
+
   </div>
 
 
   <div>
     <!-- select / option -->
+    <!-- name, options, value, label, selected -->
+    <label for="film-country">Country</label>
+    <select id="film-country" name="country">
+      <option value="UK">United Kingdom</option>
+      <option selected value="CA">Canada</option>
+      <option value="US">United States</option>
+    </select>
   </div>
 
 
@@ -38,8 +92,16 @@
   </div>
 
   <!-- hidden -->
+  <!-- use for hidden information, not secret/dangerous information because user can change it! -->
+  <!-- <input type="hidden" name="account_number" value="12123124"> -->
 
   <div>
+    <!-- <input type="submit" value="Create my film"> -->
+
+    <button type="submit">
+      <span>Create my film</span>
+      <img src="http://placebear.com/100/100">
+    </button>
     <!-- input submit / button -->
   </div>
 
