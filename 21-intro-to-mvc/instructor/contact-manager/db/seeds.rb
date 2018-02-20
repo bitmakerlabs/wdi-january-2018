@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+10.times do |n|
+  Contact.create!(
+    first_name: "Contact",
+    last_name: "Number #{n}",
+    email: "contact-#{n}@bitmaker.com",
+    note: "Bitmaker instructor")
+end
