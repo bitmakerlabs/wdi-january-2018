@@ -1,0 +1,9 @@
+<h1>INDEX PAGE</h1>
+
+<%= link_to 'Create new blog', new_blog_path %>
+
+<% @blogs.each do |blog| %>
+  <div class="">
+    <%= blog.title %> - <%= blog.author %>
+  </div>
+<% end %>

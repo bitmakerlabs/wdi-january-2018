@@ -1,0 +1,25 @@
+<h1>Create Blog</h1>
+
+Regular ol' form ---<br>
+<form class="" action="/blogs" method="post">
+  Your name: <input type="text" name="author" value=""><br>
+  Title: <input type="text" name="title" value=""><br>
+  Content: <input type="text" name="text" value=""><br>
+
+  <input type="submit" name="" value="Create blog!">
+</form>
+
+<hr>
+
+form_tag ---<br>
+<%= form_tag blogs_path do %>
+  Your name: <%= text_field_tag :author %><br>
+  Title: <%= text_field_tag :title %><br>
+  Content: <%= text_field_tag :text %><br>
+
+  <%= submit_tag 'Create blog!' %>
+<% end %>
+
+<hr>
+
+<%= render 'my_form' %>
