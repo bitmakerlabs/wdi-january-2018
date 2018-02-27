@@ -1,0 +1,618 @@
+1 01 Roasting on an Open Fire
+1 02 Bart The Genius  1.03] Homer's Odyssey
+1 04 There's No Disgrace Like Home
+1 05 Bart the General
+1 06 Moaning Lisa
+1 07 The Call of the Simpsons
+1 08 The Telltale Head
+1 09 Life on the Fast Lane
+1 10 Homer's Night Out
+1 11 The Crepes of Wrath
+1 12 Krusty Gets Busted
+1 13 Some Enchanted Evening
+2 01 Bart Gets an F
+2 02 Simpson and Delilah
+2 03 Treehouse of Horror
+2 04 Two Cars in Every Garage and Three Eyes on Every Fish
+2 05 Dancin' Homer
+2 06 Dead Putting Society
+2 07 Bart vs. Thanksgiving
+2 08 Bart the Daredevil
+2 09 Itchy & Scratchy & Marge
+2 10 Bart Gets Hit by a Car
+2 11 One Fish, Two Fish, Blowfish, Blue Fish
+2 12 The Way We Was
+2 13 Homer vs. Lisa and the 8th Commandment
+2 14 Principal Charming
+2 15 Oh Brother, Where Art Thou?
+2 16 Bart's Dog Gets an F
+2 17 Old Money
+2 18 Brush with Greatness
+2 19 Lisa's Substitute
+2 20 The War of the Simpsons
+2 21 Three Men and a Comic Book
+2 22 Blood Feud
+3 01 Stark Raving Dad
+3 02 Mr. Lisa Goes to Washington
+3 03 When Flanders Failed
+3 04 Bart the Murderer
+3 05 Homer Defined
+3 06 Like Father, Like Clown
+3 07 Treehouse of Horror II
+3 08 Lisa's Pony
+3 09 Saturdays of Thunder
+3 10 Flaming Moe's
+3 11 Burns Verkaufen der Kraftwerk
+3 12 I Married Marge
+3 13 Radio Bart
+3 14 Lisa the Greek
+3 15 Homer Alone
+3 16 Bart the Lover
+3 17 Homer at the Bat
+3 18 Separate Vocations
+3 19 Dog of Death
+3 20 Colonel Homer
+3 21 Black Widower
+3 22 The Otto Show
+3 23 Bart's Friend Falls in Love
+3 24 Brother Can You Spare Two Dimes?
+4 01 Kamp Krusty
+4 02 A Streetcar Named Marge
+4 03 Homer the Heretic
+4 04 Lisa the Beauty Queen
+4 05 Treehouse of Horror III
+4 06 Itchy & Scratchy: The Movie
+4 07 Marge Gets a Job
+4 08 New Kid on the Block
+4 09 Mr. Plow
+4 10 Lisa's First Word
+4 11 Homer's Triple Bypass
+4 12 Marge vs. the Monorail
+4 13 Selma's Choice
+4 14 Brother from the Same Planet
+4 15 I Love Lisa
+4 16 Duffless
+4 17 Last Exit to Springfield
+4 18 So It's Come to This: A Simpsons Clip Show
+4 19 The Front
+4 20 Whacking Day
+4 21 Marge in Chains
+4 22 Krusty Gets Kancelled
+5 01 Homer's Barbershop Quartet
+5 02 Cape Feare
+5 03 Homer Goes to College
+5 04 Rosebud
+5 05 Treehouse of Horror IV
+5 06 Marge on the Lam
+5 07 Bart's Inner Child
+5 08 Boy-Scoutz N the Hood
+5 09 The Last Temptation of Homer
+5 10 $pringfield (Or, How I Learned to Stop Worrying and Love Legalized Gambling)
+5 11 Homer the Vigilante
+5 12 Bart Gets Famous
+5 13 Homer and Apu
+5 14 Lisa vs. Malibu Stacy
+5 15 Deep Space Homer
+5 16 Homer Loves Flanders
+5 17 Bart Gets an Elephant
+5 18 Burns' Heir
+5 19 Sweet Seymour Skinner's Badasssss Song
+5 20 The Boy Who Knew Too Much
+5 21 Lady Bouvier's Lover
+5 22 Secrets of a Successful Marriage
+6 01 Bart of Darkness
+6 02 Lisa's Rival
+6 03 Another Simpsons Clip Show
+6 04 Itchy & Scratchy Land
+6 05 Sideshow Bob Roberts
+6 06 Bart's Girlfriend
+6 07 Treehouse of Horror V
+6 08 Lisa on Ice
+6 09 Homer: Bad Man
+6 10 Grampa vs. Sexual Inadequacy
+6 11 Fear of Flying
+6 12 Homer the Great
+6 13 And Maggie Makes Three
+6 14 Bart's Comet
+6 15 Homie the Clown
+6 16 Bart vs. Australia
+6 17 Homer vs. Patty & Selma
+6 18 A Star is Burns
+6 19 Lisa's Wedding
+6 20 Two Dozen and One Greyhounds
+6 21 The PTA Disbands!
+6 22 'Round Springfield
+6 23 The Springfield Connection
+6 24 Lemon of Troy
+6 25 Who Shot Mr. Burns? (Part 1)
+6 21 Who Shot Mr. Burns? (Part 2)
+7 02 Radioactive Man
+7 03 Home Sweet Home-Dum-Diddly-Doodily
+7 04 Bart Sells His Soul
+7 05 Lisa the Vegetarian
+7 06 Treehouse of Horror VI
+7 07 King-Size Homer
+7 08 Mother Simpson
+7 09 Sideshow Bob's Last Gleaming
+7 10 The Simpsons 138th Episode Spectacular
+7 11 Marge Be Not Proud
+7 12 Team Homer
+7 13 Two Bad Neighbors
+7 14 Scenes from the Class Struggle in Springfield
+7 15 Bart the Fink
+7 16 Lisa the Iconoclast
+7 17 Homer the Smithers
+7 18 The Day the Violence Died
+7 19 A Fish Called Selma
+7 20 Bart on the Road
+7 21 22 Short Films About Springfield
+7 22 Raging Abe Simpson and His Grumbling Grandson in "The Curse of the Flying Hellfish"
+7 23 Much Apu About Nothing
+7 24 Homerpalooza
+7 25 Summer of 4 Ft. 2
+8 01 Treehouse of Horror VII
+8 02 You Only Move Twice
+8 03 The Homer They Fall
+8 04 Burns, Baby Burns
+8 05 Bart After Dark
+8 06 A Milhouse Divided
+8 07 Lisa's Date with Density
+8 08 Hurricane Neddy
+8 09 El Viaje Misterioso de Nuestro Jomer
+8 10 The Springfield Files
+8 11 The Twisted World of Marge Simpson
+8 12 Mountain of Madness
+8 13 Simpsoncalifragilisticexpiala(Annoyed Grunt)cious
+8 14 The Itchy & Scratchy & Poochie Show  Episode 15.Homer's Phobia
+8 16 Brother from Another Series
+8 17 My Sister, My Sitter
+8 18 Homer vs. The Eighteenth Amendment
+8 19 Grade School Confidential
+8 20 The Canine Mutiny
+8 21 The Old Man and the Lisa
+8 22 In Marge We Trust
+8 23 Homer's Enemy
+8 24 The Simpsons Spin-Off Showcase
+8 25 The Secret War of Lisa Simpson
+9 01 The City of New York vs. Homer Simpson
+9 02 The Principal and the Pauper
+9 03 Lisa's Sax
+9 04 Treehouse of Horror VIII
+9 05 The Cartridge Family Episode 6.Bart Star
+9 07 The Two Mrs. Nahasapeemapetilons
+9 08 Lisa the Skeptic
+9 09 Realty Bites
+9 10 Miracle on Evergreen Terrace
+9 11 All Singing, All Dancing
+9 12 Bart Carny
+9 13 The Joy of Sect
+9 14 Das Bus
+9 15 The Last Temptation of Krust
+9 16 Dumbbell Indemnity
+9 17 Lisa the Simpson
+9 18 This Little Wiggy
+9 19 Simpson Tide
+9 20 The Trouble with Trillions
+9 21 Girly Edition
+9 22 Trash of the Titans
+9 23 King of the Hill
+9 24 Lost Our Lisa
+9 25 Natural Born Kissers
+10 01 Lard of the Dance
+10 02 The Wizard of Evergreen Terrace
+10 03 Bart the Mother
+10 04 Treehouse of Horror IX
+10 05 When You Dish Upon a Star
+10 06 D'oh-in in the Wind
+10 07 Lisa Gets an "A"
+10 08 Homer Simpson in: "Kidney Trouble"
+10 09 Mayored to the Mob
+10 10 Viva Ned Flanders
+10 11 Wild Barts Can't Be Broken
+10 12 Sunday, Cruddy Sunday
+10 13 Homer to the Max
+10 14 I'm With Cupid
+10 15 Marge Simpson in: "Screaming Yellow Honkers"
+10 16 Make Room for Lisa
+10 17 Maximum Homerdrive
+10 18 Simpsons Bible Stories
+10 19 Mom and Pop Art
+10 20 The Old Man and The "C" Student
+10 21 Monty Can't Buy Me Love
+10 22 They Saved Lisa's Brain
+10 23 Thirty Minutes Over Tokyo
+10 01 Beyond Blunderdome
+11 02 Brother's Little Helper
+11 03 Guess Who's Coming to Criticize Dinner?
+11 04 Treehouse of Horror X
+11 05 E-I-E-I-(Annoyed Grunt)
+11 06 Hello Gutter, Hello Fadder
+11 07 Eight Misbehavin'
+11 08 Take My Wife, Sleaze
+11 09 Grift of the Magi
+11 10 Little Big Mom
+11 11 Faith Off
+11 12 The Mansion Family
+11 13 Saddlesore Galactica
+11 14 Alone Again, Natura-Diddily
+11 15 Missionary: Impossible
+11 16 Pygmoelian
+11 17 Bart to the Future
+11 18 Days of Wine and D'oh'ses
+11 19 Kill the Alligator and Run
+11 20 Last Tap Dance in Springfield
+11 21 It's A Mad, Mad, Mad, Mad Marge
+11 22 Behind the Laughter
+12 01 Treehouse of Horror XI
+12 02 A Tale of Two Springfields
+12 03 Insane Clown Poppy
+12 04 Lisa the Tree Hugger
+12 05 Homer vs. Dignity
+12 06 The Computer Wore Menace Shoes
+12 07 The Great Money Caper
+12 08 Skinner's Sense of Snow
+12 09 HOMЯ
+12 10 Pokey Mom
+12 11 Worst Episode Ever
+12 12 Tennis the Menace
+12 13 Day of the Jackanapes
+12 14 New Kids on the Blecch
+12 15 Hungry, Hungry Homer
+12 16 Bye Bye Nerdie
+12 17 Simpson Safari
+12 18 Trilogy of Error
+12 19 I'm Goin' to Praiseland
+12 20 Children of a Lesser Clod
+12 21 Simpsons Tall Tales
+21 01 Treehouse of Horror 12
+13 02 The Parent Rap
+13 03 Homer the Moe
+13 04 A Hunka Hunka Burns in Love
+13 05 The Blunder Years
+13 06 She of Little Faith
+13 07 Brawl in the Family
+13 08 Sweets and Sour Marge
+13 09 Jaws Wired Shut
+13 10 Half-Decent Proposal
+13 11 The Bart Wants What It Wants
+13 12 The Lastest Gun in the West
+13 13 The Old Man and the Key
+13 14 Tales from the Public Domain
+13 15 Blame it on Lisa
+13 16 Weekend at Burnsie's
+13 17 Gump Roast
+13 18 I am Furious Yellow
+13 19 The Sweetest Apu
+13 20 Little Girl in the Big Ten
+13 21 The Frying Game
+13 22 Papa's Got a Brand New Badge
+13 01 Treehouse of Horror 13
+14 02 How I Spent My Strummer Vacation
+14 03 Bart vs. Lisa vs. The Third Grade
+14 04 Large Marge
+14 05 Helter Shelter
+14 06 The Great Louse Detective Episode 7.Special Edna
+14 08 The Dad Who Knew Too Little
+14 9 Strong Arms of The Ma
+14 10 Pray Anything Episode 11.Barting Over
+14 12 I'm Spelling as Fast as I Can
+14 13 A Star is Born-Again
+14 14 Mr. Spritz Goes to Washington Episode 15.C.E. D'oh
+14 16 'Scuse Me While I Miss the Sky
+14 17 Three Gays of the Condo
+14 18 Dude, Where's My Ranch?
+14 19 Old Yeller Belly
+14 20 Brake My Wife, Please
+14 21 Bart of War
+14 22 Moe Baby Blues
+14 01 Treehouse of Horror 14
+15 02 My Mother the Carjacker
+15 03 The President Wore Pearls
+15 04 The Regina Monologues
+15 05 The Fat and the Furriest
+15 06 Today I am A Clown
+15 07 'Tis the Fifteenth Season
+15 08 Marge vs. Singles, Seniors, Childless Couples and Teens, and Gays
+15 09 I, (Annoyed Grunt)-Bot
+15 10 Diatribe of a Mad Housewife
+15 11 Margical History Tour
+15 12 Milhouse Doesn't Live Here Anymore
+15 13 Smart and Smarter
+15 14 The Ziff Who Came to Dinner
+15 15 Co-Dependent's Day
+15 16 The Wandering Juvie
+15 17 My Big Fat Geek Wedding
+15 18 Catch 'em If You Can
+15 19 Simple Simpson
+15 20 The Way We Weren't
+15 21 Bart-Mangled Banner
+15 22 Fraudcast News
+15 01 Treehouse of Horror 15
+16 02 All's Fair in Oven War
+16 03 Sleeping With the Enemy
+16 04 She Used to Be My Girl
+16 05 Fat Man and Little Boy
+16 07 Mommie Beerest
+16 08 Homer and Ned's Hail Mary Pass
+16 09 Pranksta Rap
+16 10 There's Something About Marrying
+16 11 On a Clear Day I Can't See My Sister
+16 12 Goo Goo Gai Pan
+16 13 Mobile Homer
+16 14 The Seven-Beer Snitch Episode 15.Future-Drama
+16 16 Don't Fear the Roofer
+16 17 The Heartbroke Kid
+16 18 A Star is Torn
+16 19 Thank God It's Doomsday
+16 20 Home Away From Homer
+16 21 The Father, The Son, and The Holy Guest Star
+16 01 Bonfire of the Manatees
+17 02 The Girl Who Slept Too Little
+17 03 Milhouse of Sand and Fog
+17 04 Treehouse of Horror XVI
+17 05 Marge's Son Poisoning
+17 06 See Homer Run
+17 07 The Last of the Red Hat Mamas
+17 08 The Italian Bob
+17 9 Simpsons Christmas Stories
+17 10 Homer's Paternity Coot
+17 11 We're on the Road to D'ohwhere
+17 12 My Fair Laddy
+17 13 The Seemingly Never-Ending Story
+17 14 Bart Has Two Mommies
+17 15 Homer Simpson, This Is Your Wife
+17 16 Million Dollar Abie
+17 17 Kiss Kiss, Bang Bangalore
+17 18 The Wettest Stories Ever Told
+17 19 Girls Just Want To Have Sums
+17 20 Regarding Margie
+17 21 The Monkey Suit
+17 22 Marge and Homer Turn a Couple Play
+18 01 The Mook, The Chef, The Wife And Her Homer
+18 02 Jazzy and the Pussycats
+18 03 Please Homer, Don't Hammer 'Em...
+18 04 Treehouse of Horror XVII
+18 05 G.I. (Annoyed Grunt)
+18 06 Moe'N'a Lisa
+18 07 Ice Cream of Margie (With the Light Blue Hair)
+18 08 The Haw-Hawed Couple
+18 9 Kill Gil: Vols. 1 & 2
+18 10 The Wife Aquatic
+18 11 Revenge is a Dish Best Served Three Times
+18 12 Little Big Girl
+18 13 Springfield Up
+18 14 Yokel Chords
+18 15 Rome-old and Juli-eh
+18 16 Homerazzi
+18 17 Marge Gamer
+18 18 The Boys of Bummer
+18 19 Crook and Ladder
+18 20 Stop, or My Dog Will Shoot!
+18 21 24 Minutes
+18 22 You Kent Always Say What You Want
+18 01 He Loves to Fly and He D'ohs
+19 02 The Homer of Seville
+19 03 Midnight Towboy
+19 04 I Don't Wanna Know Why the Caged Bird Sings
+19 05 Treehouse of Horror 18
+19 6 Little Orphan Millie
+19 7 Husbands and Knives
+19 8 Funeral for a Fiend
+19 09 Eternal Moonshine of the Simpson Mind
+19 10 E. Pluribus Wiggum
+19 11 That 90's Show
+19 12 Love, Springfieldian Style
+19 13 The Debarted
+19 14 Dial 'N' for Nerder
+19 15 Smoke on the Daughter
+19 16 Papa Don't Leech
+19 17 Apocalypse Cow
+19 18 Any Given Sundance
+19 19 Mona Leaves-a
+19 20 All About Lisa
+20 01 Sex, Pies and Idiot Scrapes
+20 02 Lost Verizon
+20 03 Double, Double, Boy in Trouble
+20 04 Treehouse of Horror XIX
+20 05 Dangerous Curves
+20 6 Homer and Lisa Exchange Cross Words
+20 7 Mypods and Boomsticks
+20 8 The Burns and the Bees
+20 09 Lisa the Drama Queen
+20 10 Take My Life, Please
+20 11 How the Test Was Won
+20 12 No Loan Again, Naturally
+20 13 Gone Maggie Gone
+20 14 In the Name of the Grandfather
+20 15 Wedding for Disaster
+20 16 Eeny Teeny Maya Moe
+20 17 The Good, the Sad and the Drugly
+20 18 Father Knows Worst
+20 19 Waverly Hills 9021-D'oh
+20 20 Four Great Women and a Manicure
+20 21 Coming to Homerica
+21 01 Homer the Whopper
+21 02 Bart Gets a 'Z'
+21 03 The Great Wife Hope
+21 04 Treehouse of Horror XX
+21 05 The Devil Wears Nada
+21 06 Pranks and Greens
+21 07 Rednecks and Broomsticks
+21 08 O Brother, Where Bart Thou?
+21 09 Thursdays with Abie
+21 10 Once Upon a Time in Springfield
+21 11 Million Dollar Maybe
+21 12 Boy Meets Curl
+21 13 The Color Yellow
+21 14 Postcards from the Wedge
+21 15 Stealing First Base
+21 16 The Greatest Story Ever D'ohed
+21 17 American History X-cellent
+21 18 Chief of Hearts
+21 19 The Squirt and the Whale
+21 20 To Surveil With Love
+21 21 Moe Letter Blues
+21 22 The Bob Next Door
+21 23 Judge Me Tender
+22 01 Elementary School Musical
+22 02 Loan-a Lisa
+22 03 MoneyBART
+22 04 Treehouse of Horror XXI
+22 05 Lisa Simpson, This Isn't Your Life
+22 06 The Fool Monty
+22 07 How Munched is That Birdie in the Window?
+22 08 The Fight Before Christmas
+22 09 Donnie Fatso
+22 10 Moms I'd Like to Forget
+22 11 Flaming Moe
+22 12 Homer the Father
+22 13 The Blue and the Gray
+22 14 Angry Dad: The Movie
+22 15 The Scorpion's Tale
+22 16 A Midsummer's Nice Dream
+22 17 Love Is a Many Strangled Thing
+22 18 The Great Simpsina
+22 19 The Real Housewives of Fat Tony
+22 20 Homer Scissorhands
+22 21 500 Keys
+22 22 The Ned-Liest Catch
+23 01 The Falcon and the D'ohman
+23 02 Bart Stops to Smell the Roosevelts
+23 03 Treehouse of Horror XXII
+23 04 Replaceable You
+23 05 The Food Wife
+23 06 The Book Job
+23 07 The Man in the Blue Flannel Pants
+23 08 The Ten-Per-Cent Solution
+23 09 Holidays of Future Passed
+23 10 Politically Inept, with Homer Simpson
+23 11 The D'oh-cial Network
+23 12 Moe Goes from Rags to Riches
+23 13 The Daughter Also Rises
+23 14 At Long Last Leave
+23 15 Exit Through the Kwik-E-Mart
+23 16 How I Wet Your Mother
+23 17 Them, Robot
+23 18 Beware My Cheating Bart
+23 19 A Totally Fun Thing That Bart Will Never Do Again
+23 20 The Spy Who Learned Me
+23 21 Ned 'N Edna's Blend
+23 22 Lisa Goes Gaga
+24 01 Moonshine River
+24 02 Treehouse of Horror XXIII
+24 03 Adventures in Baby-Getting
+24 04 Gone Abie Gone
+24 05 Penny-Wiseguys
+24 06 A Tree Grows in Springfield
+24 07 The Day the Earth Stood Cool
+24 08 To Cur With Love
+24 09 Homer Goes to Prep School
+24 10 A Test Before Trying
+24 11 The Changing of the Guardian
+24 12 Love is a Many-Splintered Thing
+24 13 Hardly Kirk-ing
+24 14 Gorgeous Grampa
+24 15 Black Eyed, Please
+24 16 Dark Knight Court
+24 17 What Animated Women Want
+24 18 Pulpit Friction
+24 19 Whiskey Business
+24 20 The Fabulous Faker Boy
+24 21 The Saga of Carl
+24 22 Dangers on a Train
+25 01 Homerland
+25 02 Treehouse of Horror XXIV
+25 03 Four Regrettings and a Funeral
+25 04 YOLO
+25 05 Labor Pains
+25 06 The Kid is All Right
+25 07 Yellow Subterfuge
+25 08 White Christmas Blues
+25 09 Steal This Episode
+25 10 Married to the Blob
+25 11 Specs and the City
+25 12 Diggs
+25 13 The Man Who Grew Too Much
+25 14 The Winter of His Content
+25 15 The War of Art
+25 16 You Don't Have to Live Like a Referee
+25 17 Luca$
+25 18 Days of Future Future
+25 19 What to Expect When Bart's Expecting
+25 20 Brick Like Me
+25 21 Pay Pal
+25 22 The Yellow Badge of Cowardge
+26 01 Clown in the Dumps
+26 02 The Wreck of the Relationship
+26 03 Super Franchise Me
+26 04 Treehouse of Horror XXV
+26 05 Opposites A-Frack
+26 06 Simpsorama
+26 07 Blazed and Confused
+26 08 Covercraft
+26 09 I Won't Be Home for Christmas
+26 10 The Man Who Came to Be Dinner
+26 11 Bart's New Friend
+26 12 The Musk Who Fell To Earth
+26 13 Walking Big & Tall
+26 14 My Fare Lady
+26 15 The Princess Guide
+26 16 Sky Police
+26 17 Waiting for Duffman
+26 18 Peeping Mom
+26 19 The Kids Are All Fight
+26 20 Let's Go Fly a Coot
+26 21 Bull-E
+26 22 Mathlete's Feat
+27 01 Every Man's Dream
+27 02 Cue Detective
+27 03 Puffless
+27 04 Halloween of Horror
+27 05 Treehouse of Horror XXVI
+27 06 Friend with Benefit
+27 07 Lisa with a 'S'
+27 08 Paths of Glory
+27 09 Barthood
+27 10 The Girl Code
+27 11 Teenage Mutant Milk-Caused Hurdles
+27 12 Much Apu About Something
+27 13 Love Is in the N2-O2-Ar-CO2-Ne-He-CH4
+27 14 Gal of Constant Sorrow
+27 15 Lisa the Veterinarian
+27 16 The Marge-ian Chronicles
+27 17 The Burns Cage
+27 18 How Lisa Got Her Marge Back
+27 19 Fland Canyon
+27 20 To Courier with Love
+27 21 Simprovised
+27 22 Orange Is the New Yellow
+28 01 Monty Burns' Fleeing Circus
+28 02 Friends and Family
+28 03 The Town
+28 04 Treehouse of Horror XXVII
+28 05 Trust but Clarify
+28 06 There Will Be Buds
+28 07 Havana Wild Weekend
+28 08 Dad Behavior
+28 09 The Last Traction Hero
+28 10 The Nightmare After Krustmas
+28 11 Pork and Burns
+28 12 The Great Phatsby, Part 1
+28 13 The Great Phatsby, Part 2
+28 14 Fatzcarraldo
+28 15 The Cad and the Hat
+28 16 Kamp Krustier
+28 17 22 for 30
+28 18 A Father's Watch
+28 19 Caper Chase
+28 20 Looking for Mr. Goodbart
+28 21 Moho House
+28 22 Dogtown
+29 01 The Serfsons
+29 02 Springfield Splendor
+29 03 Whistler's Father
+29 04 Treehouse of Horror XXVIII
+29 05 Grampy Can Ya Hear Me
+29 06 The Old Blue Mayor She Ain't What She Used to Be
+29 07 Singin' in the Lane
+29 08 Mr. Lisa's
