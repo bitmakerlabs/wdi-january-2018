@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ActiveRecord: Associations</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="slides.js"></script>
+    <style type="text/css">
+
+      @import url(slides.css);
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout: true
+
+### *Today's Lesson*
+
+---
+
+
+# ActiveRecord: Associations
+
+---
+
+
+layout: false
+
+# Agenda
+
+### Databases Review .agenda-time[(15 min)]
+
+- foreign keys
+- join tables
+- relationships
+
+### Associations .agenda-time[(55 min)]
+
+- What is an association?
+- one-to-many
+- many-to-many
+- one-to-one
+- Through relationships
+
+### In-class Exercise .agenda-time[(remaining time)]
+
+---
+
+
+layout: false
+
+.starring.vertical-centre[Starring ...]
+
+---
+
+
+.vertical-centre-img[![](the-simpsons-title-card.jpg)]
+
+---
+
+
+.vertical-centre-img[![](simpsons.jpg)]
+
+---
+
+
+# Simpsons Database
+
+<img style='position: relative; left: -40px' src=simpsons-database.png>
+
+---
+
+
+layout: true
+
+# Databases Review
+
+---
+
+
+## Table
+
+A collection of related data held in a structured format consisting of columns and rows.
+
+--
+
+## Column
+
+A set of data values of a particular simple type.
+
+e.g. text, number, dates, boolean
+
+--
+
+## Row
+
+A record made up of fields, one field for each column
+
+---
+
+
+Here we have the **schema** of the actors table.
+
+.actors-table[
+  ![](actors-table.png)
+]
+
+---
+
+
+Along with the data ...
+
+.actors-table[
+  ![](actors-table.png)
+]
+
+<div style='padding: 1rem; background: bisque; position: absolute; z-index: 100; left: 2%; top: 37%'>
+  <div style='margin: 0; font-size: 20px; text-transform: uppercase; font-weight: bold; padding: 0; margin: 0; text-align: center'>Actors</div>
+  <table class=treated style='text-align: left; font-size: 14px; margin-top: .2rem'>
+    <tr><td>(integer)</td><td>(text)</td><td>(text)</td><td>(text)</td></tr>
+    <tr class=column-names>
+      <th style='text-align: center'>id</th><th>first_name</th><th>last_name</th><th>cast</th>
+    </tr>
+    <tr><td class=center>  1       </td><td> Dan       </td><td> Castellaneta </td><td> Main      </td></tr>
+    <tr><td class=center>  2       </td><td> Nancy     </td><td> Cartwright   </td><td> Main      </td></tr>
+    <tr><td class=center>  3       </td><td> Julie     </td><td> Kavner       </td><td> Main      </td></tr>
+    <tr><td class=center>  4       </td><td> Yeardley  </td><td> Smith        </td><td> Main      </td></tr>
+    <tr><td class=center>  5       </td><td> Hank      </td><td> Azaria       </td><td> Main      </td></tr>
+    <tr><td class=center>  6       </td><td> Harry     </td><td> Shearer      </td><td> Main      </td></tr>
+    <tr><td class=center>  9       </td><td> Maggie    </td><td> Roswell      </td><td> Secondary </td></tr>
+    <tr><td class=center> 10       </td><td> Russi     </td><td> Taylor       </td><td> Secondary </td></tr>
+    <tr><td class=center> 12       </td><td> Phil      </td><td> Hartman      </td><td> Guest     </td></tr>
+    <tr><td class=center> 15       </td><td> Kelsey    </td><td> Grammer      </td><td> Guest     </td></tr>
+  </table>
+</div>
+
+---
+
+
+To build a relationship we add a **foreign key** to the relating table...
+
+<br>
+
+.actors-table[
+  ![](characters-actors-tables.png)
+]
+
+---
+
+
+A **foreign key** in a table will have the same value as the **primary key** in the corresponding record in the relating table.
+
+<hr>
+
+<h4 class=no-margin style='font-family: monospace'>Actors Table</h4>
+<table>
+  <tr class=column-names>
+    <th  style='color: yellow'>id</th><th>first_name</th><th>last_name</th><th>cast</th>
+  </tr>
+  <tr><td style='font-weight: bold; text-align: center; background: greenyellow'>1</td><td>Dan  </td><td>Castellaneta</td><td>Main</td></tr>
+  <tr><td style='font-weight: bold; text-align: center; background: cyan'>       2</td><td>Nancy</td><td>Cartwright  </td><td>Main</td></tr>
+  <tr><td style='font-weight: bold; text-align: center; background: orange'>     3</td><td>Julie</td><td>Kavner      </td><td>Main</td></tr>
+</table>
+
+<hr>
+
+<h4 class=no-margin style='font-family: monospace'>Characters Table</h4>
+<table>
+  <tr class=column-names>
+    <th>id</th><th>name</th><th style='color: yellow'>actor_id</th>
+  </tr>
+  <tr><td class=center>1</td><td>Bart Simpson </td><td style='font-weight: bold; text-align: center; background: cyan;       '>2</td></tr>
+  <tr><td class=center>2</td><td>Homer Simpson</td><td style='font-weight: bold; text-align: center; background: greenyellow;'>1</td></tr>
+  <tr><td class=center>3</td><td>Marge Simpson</td><td style='font-weight: bold; text-align: center; background: orange;     '>3</td></tr>
+</table>
+
+---
+
+
+<br>
+
+A **join table** is a third table that connects two tables together. It will have two foreign keys: one for each connecting table.
+
+<br>
+
+![](episodes-quotes-characters-tables.png)
+
+---
+
+
+layout: true
+
+# Associations
+
+---
+
+
+<br>
+
+An association is a way of informing our models about the relationships that exist in the database.
+
+--
+
+<br>
+
+They make common operations simpler.
+
+<br>
+
+---
+
+
+<br>
+
+Let's say we want to find the actor that plays Bart Simpson.
+
+--
+
+#### Without an association:
+
+```ruby
+bart = Character.find(name: 'Bart Simpson')
+Actor.find(bart.actor_id)
+```
+
+--
+
+#### With an association:
+
+```ruby
+bart = Character.find(name: 'Bart Simpson')
+bart.actor
+```
+
+---
+
+
+<br>
+
+Let's say we want to find Bart's catchphrases.
+
+--
+
+#### Without an association:
+
+```ruby
+bart = Character.find(name: 'Bart Simpson')
+Catchphrase.where(character_id: bart.id)
+```
+
+--
+
+#### With an association:
+
+```ruby
+bart = Character.find(name: 'Bart Simpson')
+bart.catchphrases
+```
+
+---
+
+
+<br>
+
+Associations inform our Rails models about the existing relationships in our database.
+
+--
+
+<br>
+
+Adding associations to our models does not change the database.
+
+---
+
+
+## Models
+
+Associations go in your models
+
+--
+
+## Database
+
+Foreign keys must already exist in your database
+
+---
+
+
+layout: true
+
+---
+
+
+layout: true
+
+# One-to-Many
+
+---
+
+
+> A relationship where one row in Table A links to many rows in Table B, but each row in Table B may only link to one role in Table A.
+
+---
+
+
+For example: Each *Character* has many *Catchphrases*.
+
+--
+
+<div style='float: left'>
+  <h3 style='margin-bottom: 0'>Homer Simpson</h3>
+  <blockquote>D'oh!</blockquote>
+  <blockquote>Woo Hoo!</blockquote>
+  <blockquote>Why you little!</blockquote>
+  <blockquote>Mmm, donuts.</blockquote>
+</div>
+
+<div style='float: right'>
+  <h3 style='margin-bottom: 0'>Bart Simpson</h3>
+  <blockquote>Eat My Shorts!</blockquote>
+  <blockquote>Don't Have a Cow, Man!</blockquote>
+  <blockquote>¡Ay, caramba!</blockquote>
+  <blockquote>Cowabunga!</blockquote>
+</div>
+
+--
+
+<br>
+
+![](characters-catchphrases-tables.png)
+
+--
+
+.ruby-class-left[
+
+```ruby
+class Character < ApplicationRecord
+
+  has_many :catchphrases
+
+end
+```
+
+]
+
+--
+
+.ruby-class-right[
+
+```ruby
+class Catchphrase < ApplicationRecord
+
+  belongs_to :character
+
+end
+```
+
+]
+
+---
+
+
+<br>
+
+Notice `catchphrases` is plural in the `has_many` statement.
+
+.ruby-class-left[
+
+```ruby
+class Character < ApplicationRecord
+
+  has_many :catchphrases
+
+end
+```
+
+]
+
+--
+
+<div style='clear: both'></div>
+
+<br>
+
+Notice `character` is singular in the `belongs_to` statement.
+
+.ruby-class-left[
+
+```ruby
+class Catchphrase < ApplicationRecord
+
+  belongs_to :character
+
+end
+```
+
+]
+
+--
+
+<div style='clear: both'></div>
+
+<br>
+
+Singularization and Pluralization is important when it comes to Rails.
+
+---
+
+
+layout: true
+
+# Many-to-Many
+
+---
+
+
+> A relationship where each row in Table A can link to many rows in Table B, and each row in Table B can link to many rows in Table A.
+
+---
+
+
+**For Example:**
+
+Each *Episode* contains many *Characters* and each *Character* can be in many *Episodes*.
+
+--
+
+<br>
+
+Let's say:
+
+*Episode 1* has Bart and Homer
+
+*Episode 2* has Bart, Homer, Marge and Lisa
+
+*Episode 3* only has Bart
+
+--
+
+<br>
+
+Episode 1 contains many *characters*.
+
+Bart is in many *episodes*.
+
+--
+
+<br>
+
+This is a Many-to-Many relationship.
+
+--
+
+<br>
+
+Each *Character* can be in many *episodes*.
+
+Each *Episode* can contain many *characters*.
+
+---
+
+
+<br>
+
+Many-to-Many relationships use a join table to connect to each other.
+
+--
+
+<br>
+
+<img style='position: absolute; left: 40px' src=characters-episodes-join-table-habtm.png>
+
+--
+
+<div style='position: absolute; bottom: 0'>
+
+<pre style='width: 400px; position: absolute; bottom: 50px; left: -60px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Episode < ApplicationRecord
+
+    has_and_belongs_to_many :characters
+
+  end
+</code>
+</pre>
+
+<pre style='width: 400px; position: absolute; bottom: 50px; left: 400px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Character
+
+    has_and_belongs_to_many :episodes
+
+  end
+</code>
+</pre>
+
+---
+
+
+<br>
+
+<img style='position: absolute; left: 40px' src=characters-episodes-join-table-habtm.png>
+
+<div style='position: absolute; bottom: 130px'>
+
+<pre style='width: 400px; position: absolute; bottom: 50px; left: -60px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Episode < ApplicationRecord
+
+    has_and_belongs_to_many :characters
+
+  end
+</code>
+</pre>
+
+<pre style='width: 400px; position: absolute; bottom: 50px; left: 400px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Character
+
+    has_and_belongs_to_many :episodes
+
+  end
+</code>
+</pre>
+
+</div>
+
+--
+
+<div style='position: absolute; top: 550px; font-size: 20px'>
+As the <code>chracters_episodes</code> join table has no additional information beyond the two tables it joins, it does not require a separate Rails model.
+
+<br>
+<br>
+
+--
+
+Nor does it have its own <code>id</code>.
+</div>
+
+---
+
+
+<br>
+
+However, if we want to add fields to the join table, for example, change this:
+
+<br>
+
+<img style='position: absolute; left: 40px' src=characters-episodes-join-table-habtm.png>
+
+--
+
+<div style='position: absolute; left: 40px; bottom: 10px; font-size: 24px'>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To store the number of quotes used in each episode by a character:
+<br>
+<br>
+<img src=characters-episodes-join-table.png>
+
+</div>
+
+---
+
+
+<img style='position: relative; left: -40px; top: 20px' src=characters-episodes-join-table.png>
+
+<br>
+
+Then `characters_episodes` needs:
+
+- an `id` column
+- a rails model
+
+---
+
+
+The association would be setup like so:
+
+
+<pre style='width: 550px; position: absolute; left: 20px; top: 150px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Character < ApplicationRecord
+
+    has_many :characters_episodes
+    has_many :episodes, through: :characters_episodes
+
+  end
+</code>
+</pre>
+
+<pre style='width: 550px; position: absolute; left: 20px; top: 450px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class Episode < ApplicationRecord
+
+    has_many :characters_episodes
+    has_many :characters, through: :characters_episodes
+
+  end
+</code>
+</pre>
+
+<pre style='width: 500px; position: absolute; right: 20px; top: 300px; border: 1px solid grey; background: #eee'>
+<code class=ruby>
+  class CharactersEpisode < ApplicationRecord
+
+    belongs_to :character
+    belongs_to :episode
+
+  end
+</code>
+</pre>
+
+---
+
+
+layout: false
+
+# Resources
+
+<br>
+
+*Rails Guides:*
+
+[Active Record Associations](http://guides.rubyonrails.org/association_basics.html)
+    </textarea>
+
+  </body>
+</html>
