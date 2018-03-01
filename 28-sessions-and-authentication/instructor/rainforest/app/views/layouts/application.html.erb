@@ -9,15 +9,9 @@
   </head>
 
   <body>
-    <%
-    def user_is_logged_in
-      session[:user_id]
-    end
-    %>
-
     <p>
-      <% if user_is_logged_in %>
-        Hello email!
+      <% if current_user %>
+        Hello <%= current_user.email %>!
 
         <%= link_to 'Logout', sessions_path, method: :delete %>
       <% else %>
