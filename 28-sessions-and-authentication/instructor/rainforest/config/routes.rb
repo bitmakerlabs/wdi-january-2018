@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
-  get 'users/create'
 
   resources :products, only: :index
+
+  resource :users, only: %i(new create)
 
   root 'products#index'
 
