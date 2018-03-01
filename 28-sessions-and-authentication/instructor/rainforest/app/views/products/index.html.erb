@@ -8,6 +8,8 @@ end
 <p>
   <% if user_is_logged_in %>
     Hello email!
+
+    <%= link_to 'Logout', sessions_path, method: :delete %>
   <% else %>
     <%= link_to 'New User', new_users_path %>
     |
