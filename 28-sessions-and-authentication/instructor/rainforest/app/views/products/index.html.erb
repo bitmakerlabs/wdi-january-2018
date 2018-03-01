@@ -1,5 +1,22 @@
-<p><%= link_to 'New User', new_users_path %></p>
-<p><%= link_to 'Login', new_sessions_path %></p>
+
+<%
+def user_is_logged_in
+  false
+end
+%>
+
+<p>
+  <% if user_is_logged_in %>
+    Hello email!
+  <% else %>
+    <%= link_to 'New User', new_users_path %>
+    |
+    <%= link_to 'Login', new_sessions_path %>
+  <% end %>
+</p>
+
+
+
 
 <h1>All of our Products</h1>
 
