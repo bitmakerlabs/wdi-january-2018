@@ -15,7 +15,6 @@ class TestContact < Minitest::Test
   def test_all
     expected_value = [@contact]
     actual_value = Contact.all
-
     assert_equal(expected_value, actual_value)
   end
 
