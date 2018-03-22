@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function(e){
 
   var title = document.querySelector('#page-title');
   title.innerText = "I'm doing it!";
-  title.style.color = "red";
+
+  setInterval(flashColors, 50);
 
   var image = document.querySelector('img');
   image.src = "img/spooky.gif"
@@ -28,3 +29,10 @@ document.addEventListener('DOMContentLoaded', function(e){
   var main = document.querySelector('main');
   main.appendChild(pTag);
 })
+
+function flashColors() {
+  var title = document.querySelector('#page-title');
+  var colors = ["red", "blue", "yellow", "green"]
+  var randomColor = colors[Math.floor(Math.random()*colors.length)];
+  title.style.color = randomColor;
+}
